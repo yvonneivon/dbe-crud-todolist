@@ -7,8 +7,10 @@
 body {
     background-image: linear-gradient(120deg, #f6d365, #fda085);
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Amaranth', sans-serif;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -21,6 +23,8 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 form input,
@@ -29,6 +33,8 @@ form button {
     font-size: 2rem;
     border: none;
     background: white;
+    font-family: 'Amaranth', sans-serif;
+
 }
 
 form button {
@@ -123,6 +129,7 @@ select {
     width: 10rem;
     cursor: pointer;
     padding: 1rem;
+    font-family: 'Amaranth', sans-serif;
 }
 
 .select::after {
